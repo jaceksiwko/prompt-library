@@ -76,4 +76,4 @@ Jedno zdanie z kątem/obietnicą artykułu.
 
 ### Przykład użycia (usuń przed wklejeniem do narzędzia)
 Uzupełnij parametry, wklej prompt do modelu. Model ma zwrócić wyłącznie sekcje 1–6 w Markdown, bez ujawniania toku myślenia.
-
+LLM wygeneruje plan artykułu. Użytkowik musi kontynuować kolejnym poleceniem: "Napisz gotowy artykuł na podstawie powyższego planu. #Moja kariera od tego zależy". 
