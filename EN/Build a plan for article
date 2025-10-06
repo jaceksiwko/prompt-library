@@ -1,0 +1,81 @@
+---
+name: Build a plan for article (EN)
+version: 1.0
+---
+
+# Goal
+Create a **complete article outline** for a blog or website, optimized for SEO and reader experience.
+
+# Parameters (fill before use)
+- **TITLE:** "<insert working title>"
+- **PRIMARY_KEYWORD (exact):** "<main keyword>"
+- **INTENT:** informational / commercial / comparative / navigational
+- **AUDIENCE:** "<who are we writing for?>"
+- **BRAND_VOICE/TONE:** "<brand tone, e.g. expert, friendly, educational>"
+- **TARGET_LENGTH:** 1800–2200 words (adjust as needed)
+- **LOCALE:** en-US (or your target region)
+- **INTERNAL_LINKS_TO_INCLUDE:** ["<URL> | <anchor>", ...]
+- **EXTERNAL_REQUIRED:** ["<authoritative source>", ...]
+- **OFFER/CTA:** "<what are we promoting?>"
+- **CONSTRAINTS:** "<e.g., avoid jargon, use plain language, comply with GDPR>"
+
+# Instructions
+1) **Act as a Senior SEO Editor & Content Strategist.**  
+2) **Think step-by-step** — explore **several alternative structures or angles**, *silently select the best one*, verify it against search intent and keyword alignment.  
+   **Do not reveal your reasoning process.** Show only the final structured plan.  
+3) The plan must be **actionable** — include H2/H3 headings, writing notes, suggested lengths, and visual/UX components.
+
+# Output format (Markdown only)
+## 1) One-liner (brief)
+One-sentence summary of the article’s angle or promise.
+
+## 2) Hooks (3 options)
+- Hook A:
+- Hook B:
+- Hook C:
+
+## 3) Article outline
+- **H1:** {TITLE}
+- **Introduction** – purpose, value for the reader (≈120–180 words).
+- **H2:** ...
+  - *Goal of the section:* ...
+  - *H3:* ...
+  - *Writing notes:* key ideas, examples, data, or storytelling hints.
+  - *Suggested length:* ~XXX words.
+- **Conclusion / CTA** – what action should the reader take next.
+
+> Within the outline, include: one table or checklist placeholder,  
+> one “Pro Tip” box, one “Common Mistake” box, and one “Case in Point” box.
+
+## 4) SEO Pack
+- **Exact Keyword (PRIMARY):** ...
+- **Supporting Keywords (clusters/topics):** list 10–20, grouped into 2–3 thematic clusters.
+- **Title tag (≤60 chars):** …
+- **Meta description (≤160 chars):** …
+- **URL slug:** …
+- **H1:** …
+- **Suggested H2/H3 headings:** quick mirror of the outline.
+- **People Also Ask (5 questions):** …
+- **Featured Snippet Tactic:** paragraph/list/table (40–55 words) – specify where to insert.
+- **Schema (JSON-LD to implement):** Article, FAQPage, HowTo/ItemList – specify key fields.
+- **Internal linking (min. 5):** `Anchor → Target URL` (choose based on intent).
+- **External signals (3–5):** authoritative sources to cite.
+- **Images & Alt-text (3–6):** describe visuals and ALT suggestions.
+- **E-E-A-T Check:** author credentials, expertise, sources, freshness – list improvement actions.
+
+## 5) Assets & UX Elements
+- **Suggested graphics/diagrams/tables:** names + purpose.
+- **Content boxes (Pro Tip / Mistake / Case):** short idea for each.
+- **Lead magnet / CTA:** concept + placement in text.
+- **Accessibility & readability:** max 20–25 words per sentence, bullet lists, short paragraphs.
+
+## 6) Publication plan & metrics
+- **Estimated reading time:** X min.
+- **Post-publication KPIs:** SERP CTR, rankings for PRIMARY + 3 supporting keywords, time on page, CTA conversion.
+- **Title tag A/B test proposal:** Variant A / Variant B.
+
+---
+
+### Example usage (delete before running)
+Fill in the parameters and paste the prompt into the model.  
+The model should output only sections 1–6 in Markdown, **without revealing its reasoning process**.
