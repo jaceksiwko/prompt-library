@@ -79,3 +79,5 @@ One-sentence summary of the article’s angle or promise.
 ### Example usage (delete before running)
 Fill in the parameters and paste the prompt into the model.  
 The model should output only sections 1–6 in Markdown, **without revealing its reasoning process**.
+LLM will generate an article outline. The user must continue with the next command: "Write a full article based on the above outline. #My career depends on it."
+
