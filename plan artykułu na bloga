@@ -1,0 +1,79 @@
+---
+name: Plan artykułu na bloga (PL)
+version: 1.0
+---
+
+# Cel
+Przygotuj **kompletny plan artykułu** na blog/stronę, zoptymalizowany pod SEO i doświadczenie czytelnika.
+
+# Parametry (uzupełnij przed użyciem)
+- **TITLE:** "<wpisz tytuł roboczy>"
+- **PRIMARY_KEYWORD (exact):** "<fraza główna>"
+- **INTENT:** informacyjna / komercyjna / porównawcza / nawigacyjna
+- **AUDIENCE:** "<do kogo piszemy?>"
+- **BRAND_VOICE/TONE:** "<styl głosu marki, np. ekspercki, przyjazny>"
+- **TARGET_LENGTH:** 1800–2200 słów (zmień, jeśli trzeba)
+- **LOCALE:** pl-PL (Polska)
+- **INTERNAL_LINKS_TO_INCLUDE:** ["<URL> | <anchor>", ...]
+- **EXTERNAL_REQUIRED:** ["<źródło autorytatywne>", ...]
+- **OFFER/CTA:** "<co promujemy?>"
+- **CONSTRAINTS:** "<np. brak żargonu, prosty język, zgodność z RODO>"
+
+# Instrukcje
+1) **Pracuj jak Senior SEO Editor & Content Strategist.**  
+2) **Myśl krok po kroku**, rozważ **kilka alternatywnych ujęć/struktur**, *w ciszy wybierz najlepsze*, zweryfikuj ją względem intencji i słów kluczowych. **Nie ujawniaj procesu myślowego.** Pokaż tylko finalny wynik.  
+3) Plan musi być **wykonalny** (nagłówki H2/H3, notatki do akapitów, sugerowane długości i elementy wizualne).
+
+# Zwracany format (tylko Markdown)
+## 1) One-liner (brief)
+Jedno zdanie z kątem/obietnicą artykułu.
+
+## 2) Hooki (3 propozycje)
+- Hook A:
+- Hook B:
+- Hook C:
+
+## 3) Outline artykułu
+- **H1:** {TITLE}
+- **Wstęp** – cel, korzyść dla czytelnika (≈120–180 słów).
+- **H2:** ...
+  - *Cel sekcji:* ...
+  - *H3:* ...
+  - *Notatki pisarskie:* co koniecznie ująć, przykłady, dane, ramy.
+  - *Sugerowana długość:* ~XXX słów.
+- **Podsumowanie/CTA** – co zrobić dalej.
+
+> Dodaj w outline: miejsca na tabelę/listę kontrolną, 1 ramkę „Pro Tip”, 1 ramkę „Najczęstszy błąd”, 1 ramkę „Case in point”.
+
+## 4) SEO Pack
+- **Exact Keyword (PRIMARY):** ...
+- **Supporting Keywords (klastry/tematy):** wypunktuj 10–20 (podziel na 2–3 klastry tematyczne).
+- **Title tag (≤60 znaków):** …
+- **Meta description (≤160 znaków):** …
+- **URL slug:** …
+- **H1:** …
+- **Proponowane nagłówki H2/H3:** lista skrótowa (mirror outline).
+- **People Also Ask (5 pytań):** …
+- **Featured Snippet Tactic:** (akapit/lista/tabela + 40–55 słów) – wskaż gdzie wstawić.
+- **Schema (JSON-LD do wdrożenia):** Article, FAQPage, HowTo/ItemList (wypisz sugerowane typy i co zawierają).
+- **Internal linking (min. 5):** `Anchor → Docelowy URL` (dobierz pod intent).
+- **External signals (3–5):** autorytatywne źródła do zacytowania (tematycznie powiązane).
+- **Obrazy & Alt-texty (3–6):** temat zdjęcia/diagramu + sugestia ALT.
+- **E-E-A-T Check:** autorstwo, doświadczenie, źródła, aktualność – wypunktuj jak wzmocnić.
+
+## 5) Assets i elementy UX
+- **Proponowane grafiki/diagramy/tabele:** nazwy + cel.
+- **Ramki (Pro Tip / Błąd / Case):** krótkie zajawki treści.
+- **Lead magnet / CTA:** pomysł + miejsce w tekście.
+- **Accessibility i czytelność:** max. 20–25 słów/zdanie, listy, krótkie akapity.
+
+## 6) Plan publikacji i mierniki
+- **Szacowany czas czytania:** X min.
+- **KPI po publikacji:** CTR z SERP, pozycje dla PRIMARY i 3 supporting keywords, czas na stronie, konwersja CTA.
+- **Propozycja A/B testu Title tagu:** wariant A / wariant B.
+
+---
+
+### Przykład użycia (usuń przed wklejeniem do narzędzia)
+Uzupełnij parametry, wklej prompt do modelu. Model ma zwrócić wyłącznie sekcje 1–6 w Markdown, bez ujawniania toku myślenia.
+
