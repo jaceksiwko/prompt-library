@@ -5,5 +5,3 @@ This library is organized by language (`/pl` and `/en`) and built for profession
 
 ---
 
-## Structure
-
