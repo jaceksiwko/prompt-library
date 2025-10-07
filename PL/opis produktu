@@ -111,5 +111,5 @@ Narracja edukacyjna (łączenie wartości z wiedzą)
 
 ### Przykład użycia (usuń przed wklejeniem do narzędzia)
 Uzupełnij parametry, wklej prompt do modelu. Model ma zwrócić wyłącznie sekcje 1–6 w Markdown, bez ujawniania toku myślenia.
-LLM wygeneruje plan artykułu. Użytkowik musi kontynuować kolejnym poleceniem: "Napisz gotowy opis produktu na podstawie powyższego planu. #Moja kariera od tego zależy". 
+LLM wygeneruje plan. Użytkowik musi kontynuować kolejnym poleceniem: "Napisz gotowy opis produktu na podstawie powyższego planu. #Moja kariera od tego zależy". 
 
